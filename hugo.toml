@@ -1,4 +1,5 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://www.energiareiki.com.br'
+languageCode = 'pt_br'
+title = 'Energia Reiki'
 theme = 'hugo-scroll'
+publishDir = 'teste'

@@ -3,6 +3,7 @@ title: "Mensagem"
 weight: 99
 header_menu: true
 detailed_page_path: /#mensagem
+detailed_page_homepage_content: true
 ---
 In this section we give credit to authors of resources used on this demo page.
 

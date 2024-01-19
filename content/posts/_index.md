@@ -1,8 +1,8 @@
 ---
-title: My Go Journey
-date: 2017-03-23
+title: Blog
+menu: {main: {weight: 30}}
 ---
 
-I decided to start learning Go in March 2017.
+This is the **blog** section. It has two categories: News and Releases.
 
-Follow my journey through this new blog.
+Files in these directories will be listed in reverse chronological order.

@@ -18,3 +18,4 @@ header_subheadline: "sistema natural de harmonização e reposição energética
 nav_to_top_title: "Voltar ao início"
 nav_to_top_weight: last
 ---
+{{ template "_internal/google_analytics.html" . }}

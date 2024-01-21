@@ -1,7 +1,7 @@
 baseURL = "https://www.energiareiki.com.br"
 
 # This is a "one page"-website, so we do not need these kinds of pages...
-disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
+#disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 
 defaultContentLanguage = "pt_br"
 
@@ -12,7 +12,26 @@ theme = "hugo-scroll"
 title = "Energia Reiki"
 
 # In order to add version information in the page's footer set to true.
-# enableGitInfo = true
+enableGitInfo = false
+
+[permalinks]
+  posts = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+# ------
+# Markup
+# ------
+[markup]
+  # Set startLevel = 1 to support # title (<h1>title</h1>) otherwise table of content is blank/empty
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1
+
 
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
@@ -30,7 +49,7 @@ title = "Energia Reiki"
     # Ideal images are homogenous around the centre and contrasting to the text.
     # see CSS classes: .title-and-description-guard, .blog-title, .blog-description
     # see _index.md header_headline and header_subheadline
-    title_guard = true
+    title_guard = false
 
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
@@ -46,7 +65,7 @@ title = "Energia Reiki"
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
-    hidedesignbyline = false
+    hidedesignbyline = true
 
     # The sections of the home page alternate styling. Mark invert as true to swap the styling of the sections
     invertSectionColors = true

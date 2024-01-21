@@ -22,6 +22,10 @@ enableGitInfo = false
   category = "categories"
   archive = "archives"
 
+services:
+  googleAnalytics:
+    ID: G-D280V5D2KG
+
 # ------
 # Markup
 # ------
